@@ -15,6 +15,11 @@ test = false
 name = "test"
 path = "src/test/test.rs"
 
+[dependencies.url]
+
+git = "https://github.com/servo/rust-url"
+rev = "3d54552e06062835edf8b8e3a8664272e2fdab61"
+
 [dependencies.openssl]
 
 git = "https://github.com/sfackler/rust-openssl"
